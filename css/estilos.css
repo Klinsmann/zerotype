@@ -1,0 +1,196 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+.nf{
+	clear: both;
+}
+
+header{
+	background: #eee;
+	width: 100%;
+	height: 151px;
+	box-shadow: 2px 0px 5px  rgba(0,0,0,0.3);
+
+}
+	#contentheader{
+		width: 940px;
+		margin: 0 auto;
+	}
+
+
+	#logo a{
+		background: url(../images/logo.png) no-repeat;
+		display: block;
+		float: left;
+		position: relative;
+		top: 34px;
+		width: 52px;
+		height: 80px;
+		overflow: hidden;
+		text-indent:-9999px;
+	}
+nav{
+	float: left;
+	margin-top: 63px;
+	margin-left: 90px;
+	width: 790px;
+}
+	nav ul{
+		list-style: none;
+		width: 100%;
+		font-family: Myriad Pro, sans-serif;
+		font-size: 1em;
+	}
+		nav ul li{
+			display: inline-block;
+			vertical-align: center;
+			font-weight: bold;
+		}
+			nav ul li a{
+				color: #929292;
+				text-decoration: none;
+				margin-right: 105px;
+			}
+			nav ul li a:hover{
+				color: #ed9521;
+			}
+
+#container{
+	background: #fdfdfd;
+
+}
+
+#content{
+	margin: 0 auto;
+	width: 940px;
+}
+	#idea{
+		float: left;
+		margin-top: 60px;
+		width: 359px;
+		font-family: Myriad Pro, sans-serif;
+		color: #585858;
+
+	}
+	hgroup h1{
+		font-size:4em;
+		font-weight: normal;
+	}
+	hgroup h2{
+		font-size:2em;
+		font-weight: normal;
+	}
+	#idea p{
+		font-size:1.2em;
+		font-weight: normal;
+	}
+	#idea a{
+		background: url(../images/bg-btn.png) no-repeat 0 -62px;
+		color: #fff;
+		display: block;
+		font-family: Myriad Pro, sans-serif;
+		font-size: 1.6em;
+		text-align: center;
+		text-decoration: none;
+		margin: 15px auto;
+		line-height: 60px;
+		height: 60px;
+		width: 230px;
+	}
+	#idea a:hover{
+		background: url(../images/bg-btn.png) no-repeat ;
+	}
+	small{
+		margin-left: 70px;
+	}
+	#box{
+		margin: 60px 0 0 90px;
+		float: left;
+		width: 368px;
+	}
+
+	#block2{
+		margin-top: 165px;
+		min-height: 515px;
+	}
+		#b1,#b2{
+			float: left;
+			width: 440px;
+		}
+		#b2{
+			margin-top: 35px;
+			margin-left: 20px;
+		}
+		#b1 p, #b2 p{
+			line-height: 22px;
+			margin-top: 30px;
+			font-family: Myriad Pro, sans-serif;
+			font-size: 1.2em;
+		}
+
+h2{
+	color: #585858;
+	font-size:2em;
+	font-weight: normal;
+	font-family: Myriad Pro, sans-serif;
+}
+
+footer{
+	background: #eee;
+	border-top: 1px solid #dcdcdc;
+}
+
+	#contentfooter{
+		margin: 0 auto;
+		height: 125px;
+		width: 940px;
+	}
+	#cr{
+		float: left;
+		padding-top: 25px;
+	}
+	#socialmedia{
+		float: right;
+		padding-top: 25px;
+
+	}
+	#socialmedia ul{
+		list-style: none;
+	}
+	#socialmedia ul li{
+		float: left;
+		margin-right: 20px;
+	}
+	#socialmedia ul li a{
+		display: block;
+		width: 31px;
+		height: 31px;
+
+	}
+	.fb{
+		background: url(../images/icons.png) no-repeat 0px 0px;	
+	}
+	.gp{
+		background: url(../images/icons.png) no-repeat 0px -40px;	
+	}
+	.tw{
+		background: url(../images/icons.png) no-repeat 0px -80px;	
+	}
+	.tb{
+		background: url(../images/icons.png) no-repeat 0px -120px;	
+	}
+
+	.fb:hover{
+		background: url(../images/icons.png) no-repeat -40px 0px;	
+	}
+	.gp:hover{
+		background: url(../images/icons.png) no-repeat -40px -40px;	
+	}
+	.tw:hover{
+		background: url(../images/icons.png) no-repeat -40px -80px;	
+	}
+	.tb:hover{
+		background: url(../images/icons.png) no-repeat -40px -120px;	
+	}
