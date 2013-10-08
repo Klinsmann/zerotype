@@ -136,7 +136,12 @@ h2{
 	font-weight: normal;
 	font-family: Myriad Pro, sans-serif;
 }
-
+h3{
+	color: #585858;
+	font-size:1.5em;
+	font-weight: normal;
+	font-family: Myriad Pro, sans-serif;
+}
 footer{
 	background: #eee;
 	border-top: 1px solid #dcdcdc;
@@ -194,3 +199,174 @@ footer{
 	.tb:hover{
 		background: url(../images/icons.png) no-repeat -40px -120px;	
 	}
+
+/****FEATURES****/
+
+h2,p,ul li{
+	font-family: 'Myriad Pro';
+	list-style: none;
+}
+
+#features{
+	text-align: center;
+	margin: 10px 0 0 15px;
+}
+#txtfeatures{
+	text-align: left;
+	width: 700px;
+	float: right;
+	padding-bottom:  25px;
+}
+#caracteristicas h2{color: #000;padding-bottom: 42px;}
+#caracteristicas p{
+	color:#585858;
+}
+
+
+
+#logos{
+	float: left;
+}
+	#logos li:first-child{
+		background: url(../images/recycle.png);
+		height: 300px;
+		width: 218px;
+	}
+		#logos li:last-child{
+		background: url(../images/box-of-icons.png);
+		height: 300px;
+		width: 218px;
+	}
+
+#caracteristicas{
+	float: left;
+	margin-left: 58px;
+	width: 516px;
+}
+	#caracteristicas li:first-child{margin-top: 0;}
+	#caracteristicas li{
+		margin-top: 62px;
+	}
+	#caracteristicas li:last-child{
+		padding-bottom: 70px;
+	}
+/****NEWS****/
+#updates{
+	float: left;
+	width: 620px;
+}
+#updates-post li{
+	margin-bottom: 80px;
+	border-top: 1px solid #d5d5d5;
+	width: 561px;
+	padding-top: 15px;
+}
+	#updates-post li p{
+		margin-top: 30px;
+		margin-left: 92px;
+		line-height: 20px;
+	}
+	#updates-post li h2{
+		vertical-align: bottom;
+	}
+
+#aside-popular-post h3{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+#aside-popular-post p{
+	padding-bottom: 45px;
+}
+
+.fechas{
+	float: left;
+	margin: 50px 40px 0 0;
+	height: 65px;
+	border: 1px solid #ccc;
+	padding:5px;
+}
+.fechas span{
+	font-size: 40px;
+}
+	.fechas>blockquote{
+		text-align: center;
+	}
+
+.readmore{
+	background-color: #727272;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 5px;
+	position: relative;
+	left: 471px;
+	top: 14px;
+}
+.readmore:hover{
+	color: #000;
+	background-color: #f99600;
+}
+/****NEWS POST****/
+article{
+	height: 600px;
+	color:#585858;
+}
+article p{
+	margin-bottom: 30px;
+}
+#fecha{
+	padding-bottom: 30px;
+}
+#btnback{
+	background-color: #f99600;
+	padding: 6px 5px; 
+	text-decoration: none;
+	color: #000;
+	font-family: "Myriad Pro";
+	position:relative;
+	left: 690px;
+}
+/****ABOUT****/
+#h2about{
+	border-bottom: 1px solid #ccc;
+}
+.post-about h3{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.post-about p{
+	margin-bottom: 55px;
+}
+
+/****CONTACT****/
+
+form{
+	vertical-align: top;
+	display: inline-block;
+	width: 400px;
+}
+	form input{
+		margin-bottom: 8px;
+		height: 35px;
+		width: 100%;
+	}
+	form textarea{
+		margin-bottom: 8px;
+		height: 175px;
+		width: 100%;
+	}
+	form input[type="submit"]{
+		color: #fff;
+		cursor: pointer;
+		background: #818181;
+		border:0;
+		width: 4em;
+	}
+#h2contact{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 25px;
+}
+#txt-contact{
+	vertical-align: top;
+	display: inline-block;
+	width: 398px;
+}
